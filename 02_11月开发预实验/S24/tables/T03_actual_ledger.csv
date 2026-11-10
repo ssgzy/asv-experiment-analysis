@@ -1,0 +1,29 @@
+item,actual,upper,basis
+MATLAB processes,1,1,launch receipt
+q1_setup,1,1,returned
+startup L1,1,1,returned
+common init,0,0,reuse original typed snapshot
+new scientific draws,0,0,"tape reused, not generated"
+new global / route metrics,0,0,saved R0/R1 metrics used
+native jobs,91,360,returned
+FDWA selections,91,360,returned
+all L1,92,361,startup + native
+kernels,92,361,backend reported
+candidate columns,6816,30312,backend reported
+private receiver calls,1635840,7274880,kernel reported
+private column arithmetic updates,1635840,7274880,kernel reported
+controller vector batches,22080,86640,kernel reported
+body vector batches,22080,86640,kernel reported
+legacy kinematic updates,3864,15162,source-derived
+candidate cost samples,204480,909360,source-derived
+complete actual intervals,910,3600,returned/durable
+actual controller,910,3600,source-derived
+native preview and actual receiver,1820,7200,source-derived
+guard forecasts,1820,7200,source-derived
+guard reduced steps,182000,720000,source-derived
+external speed controller,182910,723600,source-derived
+recovery searches and rechecks,0,0,zero premises verified
+BOTH RHS incl setup,30941,122401,910×34 +1
+archived otter RHS,1,1,setup source
+typed chunks,19,72,durable
+reused normal values,7216,7216,"old 1804×4 tape, not new draws"

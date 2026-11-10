@@ -1,0 +1,152 @@
+{
+  "study_id": "Q1_ROUTE_GEOMETRY_PILOT_V1",
+  "title": "USV全局路线几何与局部避碰的安全和任务效率：恒定横流下的成对预实验",
+  "date": "2026-10-25",
+  "version": "1.0",
+  "status": "FROZEN_FOR_EXECUTION",
+  "question": "Q1 fixed DWA, differing static global routes: full-mission safety and task efficiency",
+  "scope": "Development pilot only; fixed background plus one scripted moving vessel; world-coordinate current constant per run, wind zero; no RL or COLREG-compliance comparison in this first batch",
+  "matrix": {
+    "globals": [
+      "ASTAR",
+      "THETA_STAR"
+    ],
+    "locals": [
+      "DWA_PROJECT_P1B"
+    ],
+    "maps": [
+      "M0_SINGLE",
+      "M1_STAGGERED"
+    ],
+    "encounters": [
+      "HEADON",
+      "CROSSING_STARBOARD",
+      "OVERTAKING"
+    ],
+    "currents_ne_mps": [
+      [
+        0,
+        0
+      ],
+      [
+        0,
+        0.3
+      ]
+    ],
+    "seeds": [
+      61001,
+      61002,
+      61003,
+      61004,
+      61005
+    ],
+    "expected_pairs": 60,
+    "expected_runs": 120
+  },
+  "execution": {
+    "vessel": "MSS OTTER 6DOF BOTH dynamics, existing p1b execution chain",
+    "length_m": 2,
+    "beam_m": 1.08,
+    "payload_kg": 25,
+    "own_circle_radius_m": 1.1364858116140297,
+    "target_water_relative_speed_mps": 1.2,
+    "max_water_relative_speed_mps": 1.2,
+    "physics_dt_s": 0.05,
+    "local_decision_period_s": 0.5,
+    "mission_timeout_s": 320,
+    "goal_radius_m": 5,
+    "safety_net_clearance_m": 3,
+    "sensor_range_m": 35,
+    "sensor_delay_s": 0.1,
+    "noise_scale": 1,
+    "lookahead_m": 30,
+    "wind_speed_mps": 0,
+    "flow_semantics": "Constant inertial North/East input; body-relative flow and loading vary with heading",
+    "current_intensity_note": "0.3m/s is25%of1.2m/s cruise, an engineering-supported development stress point; replaces earlier illustrative0.1-speed/3m/swind suggestions and isdeclaredbeforeexecution"
+  },
+  "global_contract": {
+    "resolution_m": 2,
+    "neighbours": 8,
+    "heuristic": "Euclidean",
+    "corner_cutting": false,
+    "obstacle_inflation_m": 5.13648581161403,
+    "inflation_definition": "Owncircle+3m margin+half2mcell conservative box expansion",
+    "adapter": "Same directed-collinear point removal; no LOS shortcut or spline; exact geometric polyline retained",
+    "plans_frozen_once_per_map": true,
+    "traffic_or_current_input": false,
+    "theta_reference": "Daniel et al.2010 Theta*: Any-Angle Path Planning on Grids, JAIR; basic parent line-of-sight relaxation, not continuous optimality"
+  },
+  "local_contract": {
+    "method": "Unchanged project L1 DWA instantiation with deterministic avoidanceHeading cue and shared emergency branch",
+    "prediction_horizon_s": 12,
+    "prediction_dt_s": 0.4,
+    "local_action": "Water-relative desired surge and heading via common frozen controller/receiver/actuators",
+    "supervisor": "Existing p1b BRAKE/RECOVER enabled for every arm, no threshold tuning on these runs",
+    "actual_delivery_clock": "Candidate plus selection measured wall time, minimum.05s, then .05s acceptance grid; world and old legal command advance while pending",
+    "accounting_note": "Shared supervisor CPU recorded separately; does not enter planner-ready latency in inherited core; not a hard real-time or end-to-end OS scheduler guarantee",
+    "planned_compute_soft_deadline_s": 0.5,
+    "physics_step_is_not_planning_deadline": true
+  },
+  "traffic": {
+    "model": "One scripted circular target, radius2.5m; observed center/velocity within35m only; ground-fixed absolute trajectories identical across global arms and both flow conditions",
+    "overtaking_exit": "At60s predeclared eastward exit while target staysN<50m, beforefixedobstacles; no algorithm-dependent rescheduling",
+    "encounter_labels": "Nominal scenario family; actual encountered angle/time/clearance measured afterexecution, no promiseallruns actuallymeet",
+    "interactive_or_rule_compliance_claim": false
+  },
+  "order": {
+    "single_matlab_worker": true,
+    "counterbalanced": "A*first onodd pair number, Theta*first oneven; botharms completed before nextpair",
+    "no_outcome_selection": true
+  },
+  "logging": {
+    "full_rate_fields": [
+      "state",
+      "action",
+      "observation",
+      "supervisor",
+      "actualsweptgeometry",
+      "RK4trace",
+      "publicobjects"
+    ],
+    "native_chunk_intervals": 200,
+    "forecast_trace_sampling": "Every .5s decision tick plus supervisor mode transitions; actual truth geometry remains .05s and internal RK4trace",
+    "failure_preservation": "No automatic retry or silent fallback; infrastructureerror/partialintervals archived and kept distinct from physical timeout/collision"
+  },
+  "primary_outcomes": [
+    "collision-free goal arrival",
+    "goal arrival while maintaining3mnetclearance",
+    "collision",
+    "marginviolation",
+    "physicaltimeout",
+    "engineeringerror"
+  ],
+  "secondary_outcomes": [
+    "Actualsweptminimumclearance",
+    "missionduration",
+    "actualpathlength",
+    "shaft effort sum(abs(n_left)^3+abs(n_right)^3)*dt",
+    "supervisorBRAKE/RECOVER durations",
+    "plannerready_latencyP50/P95/max and0.5ssoftdeadlineexceedance"
+  ],
+  "analysis": {
+    "paired_on": [
+      "map",
+      "encounter",
+      "current",
+      "scenarioseed",
+      "absolutetargetworld"
+    ],
+    "efficiency": "Report failures separately; duration/path paired contrasts only whenbotharms safelyarrive; no earlycollisioncalledfaster",
+    "uncertainty": "Exploratory paired differences with seed-cluster bootstrap; only5development seeds, no universalranking/significanceclaim",
+    "energy": "Shaft effort is a control/power-related proxy, not calibrated electrical energy",
+    "q2_q3": "NoRLtraining orplannerselection inthisfirstQ1batch; futureQ2/Q3protocolpreservedindesign, notclaimedrun"
+  },
+  "frozen_at_utc": "2026-10-24T17:38:37.058401+00:00",
+  "qualification": {
+    "native20s_case": "qualification/native20s_attempt001",
+    "intervals": 400,
+    "science_runs": 0,
+    "common_warmup": "One20sstraight-route/no-obstacle/no-traffic warmup in shared batch MATLAB process, saved separately and excluded from120cases",
+    "no_outcome_tuning": "No traffic geometry, planner score or control threshold changed based on the20s qualification result"
+  }
+}

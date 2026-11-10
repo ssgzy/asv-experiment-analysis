@@ -1,0 +1,74 @@
+[
+  {
+    "bounds_ne": [
+      -20,
+      220,
+      -60,
+      60
+    ],
+    "start_ne": [
+      0,
+      0
+    ],
+    "goal_ne": [
+      200,
+      0
+    ],
+    "resolution_m": 2,
+    "planning_inflation_m": 5.13648581161403,
+    "coordinate_system": "Local Cartesian North/East metres; no geographic location or depth inference",
+    "footprint_radius_m": 1.1364858116140297,
+    "safety_margin_m": 3.0,
+    "map_id": "M0_SINGLE",
+    "source_map_id": "SYN_RECT_M0_v1",
+    "name": "单矩形绕行",
+    "obstacles_ne": [
+      [
+        80,
+        120,
+        -10,
+        10
+      ]
+    ],
+    "source": "experiments/hybrid_double_v1/static_scene.m"
+  },
+  {
+    "bounds_ne": [
+      -20,
+      220,
+      -60,
+      60
+    ],
+    "start_ne": [
+      0,
+      0
+    ],
+    "goal_ne": [
+      200,
+      0
+    ],
+    "resolution_m": 2,
+    "planning_inflation_m": 5.13648581161403,
+    "coordinate_system": "Local Cartesian North/East metres; no geographic location or depth inference",
+    "footprint_radius_m": 1.1364858116140297,
+    "safety_margin_m": 3.0,
+    "map_id": "M1_STAGGERED",
+    "source_map_id": "SYN_DOUBLE_M1_v1",
+    "name": "交错双障碍水道",
+    "obstacles_ne": [
+      [
+        60,
+        90,
+        -54,
+        8
+      ],
+      [
+        130,
+        160,
+        -8,
+        54
+      ]
+    ],
+    "source": "experiments/hybrid_double_v1/static_double_scene.m"
+  }
+]

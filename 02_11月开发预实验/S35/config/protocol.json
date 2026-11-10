@@ -1,0 +1,200 @@
+{
+  "schema_version": "p1b-dynamic-polarity-development-v0.5",
+  "status": "development_protocol_before_first_new_run; final discussion decisions recorded separately",
+  "deadline_local": "2026-10-21T09:00:00+08:00",
+  "objective": "Dynamic maritime situation -> observable candidate response -> online planner choice/replan -> actual continued navigation; preserve user original research direction",
+  "predecessor_commit": "a12fbe241db683e9d8e05a1fea19d66183e4d458",
+  "settings": {
+    "h": 0.05,
+    "decision_period_s": 0.5,
+    "payload_kg": 25,
+    "nominal_payload_kg": 25,
+    "rp_m": [
+      0.05,
+      0,
+      -0.35
+    ],
+    "current_ne_mps": [
+      0,
+      0
+    ],
+    "ur_max_mps": 1.2,
+    "seed": 1,
+    "sensor_delay_s": 0.1,
+    "sensor_range_m": 35,
+    "lookahead_m": 30,
+    "reference_horizon_s": 15,
+    "node_dt_s": 0.5,
+    "reference_ttl_s": 1,
+    "heading_rate_radps": 0.35,
+    "compute_budget_s": 0.5,
+    "max_arrival_age_s": 1,
+    "injected_delivery_latency_s": 0.05,
+    "max_time_s": 300,
+    "goal_radius_m": 5,
+    "footprint_radius_m": 1.1364858116140297,
+    "safety_margin_m": 3
+  },
+  "supervisor": {
+    "version": "p1b-common-brake-recover-v0.1",
+    "predictor": "Explicit approximate planar nominal mass/damping + exact .1s shaft lag, uses P002 controller preview and current internal state; not full BOTH prediction and not formal safety proof",
+    "nominal_horizon_s": 4,
+    "stop_horizon_s": 6,
+    "predictor_step_s": 0.05,
+    "admit_clearance_m": 3.25,
+    "recover_clearance_m": 3.5,
+    "minimum_latch_s": 0.5,
+    "continuous_clear_s": 0.5,
+    "fallback": "Zero relative-water speed and retained shaped heading; frozen controller shapes braking, integrals frozen during override; vessel/shaft/filter/observation/receiver state retained",
+    "triggers": "Every control tick: projected actual execution unsafe, delivered no_solution, or no fresh reference after initial wait. Pending job outcome must not trigger before ready/delivery. Ordinary invalid/stale packets rejected by frozen receiver; fresh is not proof of geometric safety.",
+    "recovery": "TRACK requires fresh native guidance and normal/stop previews >=3.5m continuously .5s. Independent COMMON_RECOVERY may start a low-speed fragment after measured ready time using fresh public sensing and current-state action+terminal-stop revalidation; never execute expired native guidance.",
+    "observer_truth_separation": "Public delayed estimates, observed object tracks, known map/bounds and idealized current shaft telemetry only; hidden/future world used solely for plant and offline metric evaluation.",
+    "geometry": "Use frozen p003_sweep_interval analytic circle sweep on endpoint polylines; physical path from frozen BOTH RK4sub4, not continuous nonlinear ODE certificate",
+    "initial_reference_wait_grace_s": 0.5,
+    "initial_wait_policy": "Before .5s startup wait has zero speed fallback but no missing-reference latch; geometry/no_solution can still latch. At/after.5s no fresh reference triggers supervision. This does not extend active TTL."
+  },
+  "candidate_contract": {
+    "methods": [
+      "L1",
+      "L2",
+      "ASTAR"
+    ],
+    "speed_semantics": "commanded signed water-relative surge; search0to1.2; ground prediction includes current public flow",
+    "maximum_ur_mps": 1.2,
+    "future_flow": "hold current delayed public measurement only",
+    "static_information": "known map plus detected static memory",
+    "moving_information": "current observed center/velocity/timestamp only; no future schedules",
+    "astar_scope": "Public bounded snapshot map to common goal, fully replanned at each decision; exact safe grid connectors and snapshot LOS; not a cached local25m-connection planner or time-space safety guarantee."
+  },
+  "sensors": {
+    "delay_s": 0.1,
+    "flow_estimate": "ideal measured flow vector at same delayed timestamp as ego and objects; not a real estimator",
+    "flow_noise_std_mps": 0,
+    "ego_noise": "P0 frozen u/v/yaw/r scales; independent tape indexed by absolute tick"
+  },
+  "world": {
+    "current_schedule_interpolation": "linear in VN,VE; value at interval left endpoint held across frozen .05s/RK4sub4 step",
+    "current_model_scope": "time-varying spatially uniform current parameters; frozen yaw nu_c_dot retained, no added force for temporal current acceleration; not a validated ocean/wind/wave model",
+    "ship_velocity_schedule_interpolation": "right-continuous piecewise constant; integrate each segment from spawn",
+    "events_on_control_grid": true,
+    "future_schedules_visible_to_planners": false,
+    "generation_version": "two-ship-physical-world-v03",
+    "pre_dynamic_repair": "Before any dynamic episode: shift CROSS01 N+20m, retain CROSS02 westward motion, remove third ship, preventing background vessels traversing static rectangles or each other. Original v02 full text and geometric audit retained.",
+    "polarity_extension": "D3W shares every D3 physical/noise/world input at same seed except VN,VE signs are both reversed at all times; metadata labels differ. No promise of a different winner."
+  },
+  "recovery": {
+    "enabled": true,
+    "physical_margin_m": 3,
+    "admission_clearance_m": 3.25,
+    "recovery_clearance_m": 3.5,
+    "minimum_brake_s": 1,
+    "low_speed_threshold_mps": 0.15,
+    "planning_period_s": 1,
+    "action_speeds_mps": [
+      0,
+      0.15,
+      0.3
+    ],
+    "heading_offsets_deg": [
+      0,
+      -90,
+      -60,
+      -30,
+      30,
+      60,
+      90
+    ],
+    "include_current_candidate_heading": true,
+    "include_observed_obstacle_outward_heading": true,
+    "action_horizon_s": 4,
+    "terminal_stop_horizon_s": 6,
+    "execute_fragment_s": 0.5,
+    "maximum_recovery_s": 30,
+    "integrals": "frozen during BRAKE/RECOVER; filter, shaft and physical state advance normally",
+    "planning_delivery": "measured search CPU counted; cannot apply a nonconstant recovery plan before its ready_time; BRAKE remains available while waiting",
+    "independent_reference_source": "COMMON_RECOVERY action may replace expired/rejected native guidance only when generated from fresh public sensing, separately delivered no earlier than measured ready time, and rechecked using current public state; fresh valid native still required for TRACK",
+    "action_ttl_s": 1,
+    "sensor_max_age_s": 0.15,
+    "no_solution_delivery": "A delivered no_solution forces BRAKE for that control tick and forbids pending recovery acceptance on that same tick; later fresh common recovery remains allowed",
+    "common_for_all_policies": true
+  },
+  "selection": {
+    "policies": [
+      "FDWA",
+      "FVO",
+      "FASTAR",
+      "RULE",
+      "JUDGE"
+    ],
+    "candidate_period_s": 0.5,
+    "minimum_dwell_s": 5,
+    "rule": {
+      "initial_method": "L2",
+      "risk_distance_m": 22,
+      "risk_ttc_s": 20,
+      "current_threshold_mps": 0.15,
+      "latched_switch_after_s": 2,
+      "high_risk_method": "L1",
+      "persistent_blockage_method": "ASTAR"
+    },
+    "judge": {
+      "horizon_s": 4,
+      "hard_min_clearance_m": 3.25,
+      "weights": {
+        "normalized_progress_gain": 1,
+        "normalized_mean_cte": 0.2,
+        "heading_change_rad": 0.15,
+        "normalized_shaft_effort": 0.03,
+        "switch_penalty": 0.1
+      },
+      "online_inputs_only": true,
+      "model_scope": "same public nominal execution predictor; not true future or an optimal oracle"
+    },
+    "compute_budget_s": 0.5,
+    "delivery": "max(sum of actual invoked candidate+selection CPU,injected .05s), with world advancing until actual ready event",
+    "background_cost": "all shadow candidate calls and judge work explicitly counted; fixed native baselines do not receive free alternate plans"
+  },
+  "logging": {
+    "all_original_data": true,
+    "state_action_observation_supervisor_geometry_trace": "CSV at original resolution",
+    "jobs_and_packets": "complete JSON with public launch snapshot/ready times and all candidates/scores",
+    "prediction_storage": "lossless MAT arrays or cells for all tick forecasts, optional gzip JSON developer export; never single-success-window-only",
+    "failed_attempts": "unique directories and source freezes, preserve partial logs; no overwrite",
+    "large_remote_artifacts": "Untracked artifacts over45MiB may be published as byte-exact24MiB parts with original bytes+SHA256 manifest; original retained locally, fully reconstructable remotely, no downsampling or content loss."
+  },
+  "analysis": {
+    "axes": [
+      "mechanism_and_causality",
+      "collision_free",
+      "full_3m_margin",
+      "arrival"
+    ],
+    "efficiency": [
+      "arrival_time",
+      "route_progress",
+      "path_length",
+      "shaft_effort_proxy",
+      "heading_change",
+      "switches",
+      "recovery_time",
+      "compute_CPU_and_ready_time"
+    ],
+    "no_claims": [
+      "single-seed statistical significance",
+      "general best planner",
+      "actual electric energy without power model",
+      "real-ocean or formal continuous-time safety"
+    ],
+    "leave_out_seeds": [
+      201,
+      202,
+      203
+    ],
+    "development_seeds": [
+      101
+    ],
+    "next_steps_not_gated_on_every_fixed_method_arriving": true,
+    "polarity_priority": "After firstD3 independent verification, run D3W seed101 all5 before remaining D1/D2; reserve201-203 for later unchanged-algorithm paired worlds."
+  },
+  "timing_measurement_definition": "MATLAB tic/toc per-call elapsed duration, including scheduling effects; historical *_cpu_s field names retained. Candidate and judge sum and recovery search ready are delayed; this is not OS process-only CPU or a complete real-time scheduler."
+}

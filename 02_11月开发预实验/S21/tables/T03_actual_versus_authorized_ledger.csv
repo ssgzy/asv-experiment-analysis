@@ -1,0 +1,29 @@
+item,actual,authorized_upper,basis
+global_ASTAR,1,1,global returned
+global_THETA_STAR,1,1,global returned
+route_metrics,4,4,2 source-derived R1 +2 directly bounded R0
+MATLAB_processes,1,1,launcher
+setup,1,1,returned
+startup,1,1,returned
+common_init,1,1,returned
+native_jobs,12,360,returned
+total_L1,13,361,returned
+candidate_columns,984,30312,kernel-reported
+candidate_private_receiver,236160,7274880,kernel-reported
+candidate_math_updates,236160,7274880,kernel-reported
+candidate_controller_batches,3120,86640,kernel-reported
+candidate_body_batches,3120,86640,kernel-reported
+candidate_legacy_kinematic,546,15162,source-derived
+candidate_cost_samples,29520,909360,source-derived
+completed_intervals,120,3600,returned
+durable_intervals,120,3600,durable
+actual_controller,120,3600,source-derived
+native_receiver,240,7200,source-derived
+guard_forecasts,240,7200,source-derived
+guard_reduced_updates,24000,720000,source-derived
+external_speed_controller,24120,723600,source-derived
+BOTH_rhs,4081,122401,source-derived
+archived_otter,1,1,source-derived
+recovery_all,0,0,validated initial/support-stop premises
+scientific_noise_normal_values,7216,7216,one fresh1804x4 array; not primitive RNG draw count
+extra_warmup_or_oracle_or_posthoc_model,0,0,no new model after process returned

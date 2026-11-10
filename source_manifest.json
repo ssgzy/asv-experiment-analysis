@@ -1,0 +1,614 @@
+[
+  {
+    "path": "01_研究与计划/仓库总览.md",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/README.md",
+    "bytes": 5576,
+    "sha256": "817266104f2ea9ca5016fbf9173bef1f518aedb46334c8cae6366d0d8b5b27ea"
+  },
+  {
+    "path": "01_研究与计划/ABC历史项目索引.md",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/docs/research_hub/PROJECT_INDEX.md",
+    "bytes": 3916,
+    "sha256": "d64c708005a7ea8338576da9b0d3980dd3265e9a4faa9b70e012040bc68f7609"
+  },
+  {
+    "path": "01_研究与计划/ASV主实验清单与船模决策_20261104.md",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/ASV主实验清单与船模决策_20261104.md",
+    "bytes": 20166,
+    "sha256": "dc573e741275f3f20a251354f5b7d65b07cc2c80b79904a8b9484ba72212430e"
+  },
+  {
+    "path": "01_研究与计划/ASV本轮收尾与论文交接_20261104.md",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/ASV本轮收尾与论文交接_20261104.md",
+    "bytes": 3924,
+    "sha256": "347394706df9c39a7e1fe500106c14618c71fcd6e6979608a40054380f75b95f"
+  },
+  {
+    "path": "01_研究与计划/实验报告索引.md",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/实验报告索引.md",
+    "bytes": 20604,
+    "sha256": "c98ea1ba434c89e15a60d8a879a2b0282b7933f04c99a361451638dc332b8da0"
+  },
+  {
+    "path": "01_研究与计划/ASV_V5_实验准备大纲_20261103.xmind",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/outputs/asv_paper1_experiment_outline_20261103/ASV_V5_实验准备大纲_20261103.xmind",
+    "bytes": 38423,
+    "sha256": "b621a31f2eba78a8c33488db1cd42b29b9d06c1e8b260d78571d6474da75d545"
+  },
+  {
+    "path": "02_11月开发预实验/S21/S21_论文可用内容与待验证问题_20261104.md",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/进程汇报/S21_论文可用内容与待验证问题_20261104.md",
+    "bytes": 4285,
+    "sha256": "00b12125cfa9e05e59b6d446066b2d040e4a8a57cc4d46f0f3dd09adf95889d2"
+  },
+  {
+    "path": "02_11月开发预实验/S21/S21_单岛全局配对预实验执行报告_20261104.md",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/进程汇报/S21_单岛全局配对预实验执行报告_20261104.md",
+    "bytes": 19887,
+    "sha256": "1b85e0a15c65aa7bc8b518b75b857db3fb3f612606c3299adb97f615033804bf"
+  },
+  {
+    "path": "02_11月开发预实验/S21/tables/T01_two_case_outcome.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S21/tables/T01_two_case_outcome.csv",
+    "bytes": 1326,
+    "sha256": "c97f97a9de05628697a314ad07344013806de8aab9e8934e0da199df9c4485b8"
+  },
+  {
+    "path": "02_11月开发预实验/S21/tables/T02_all_native_jobs_delivery.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S21/tables/T02_all_native_jobs_delivery.csv",
+    "bytes": 2016,
+    "sha256": "18dc1a8069da7e9a02a989922519d9f9264512ed750fb6ed6b71a9c1608688a1"
+  },
+  {
+    "path": "02_11月开发预实验/S21/tables/T03_actual_versus_authorized_ledger.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S21/tables/T03_actual_versus_authorized_ledger.csv",
+    "bytes": 1308,
+    "sha256": "1d754930869d28fdb190d2b2e6c01179fdb96d505914eb4014d8364999673a2a"
+  },
+  {
+    "path": "02_11月开发预实验/S21/config/protocol.json",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S21/code/protocol.json",
+    "bytes": 9664,
+    "sha256": "f2631562cfdd9f2fc39ea5509ec0574165c4fe6af275f40192abf295e03898ee"
+  },
+  {
+    "path": "02_11月开发预实验/S21/config/cases.json",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S21/code/cases.json",
+    "bytes": 200190,
+    "sha256": "f38b864c2834738782e1b0b997e1d33b9254e85f23b2732406f6098fe49b5d65"
+  },
+  {
+    "path": "02_11月开发预实验/S24/S24_受控交付单岛配对预实验执行报告_20261104.md",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/进程汇报/S24_受控交付单岛配对预实验执行报告_20261104.md",
+    "bytes": 15666,
+    "sha256": "220b38b5b12fc587a97f54ee2bec806f13dc70597e1d2a11f5b6b8c556c9a1ff"
+  },
+  {
+    "path": "02_11月开发预实验/S24/tables/T01_two_case_outcome.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S24/tables/T01_two_case_outcome.csv",
+    "bytes": 1625,
+    "sha256": "92adece4ee71bf06f57614c9e8cceb1b42dc53c5b3d5073b59745ed0065c2b65"
+  },
+  {
+    "path": "02_11月开发预实验/S24/tables/T03_actual_ledger.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S24/tables/T03_actual_ledger.csv",
+    "bytes": 1315,
+    "sha256": "b93cc20a1c28edd576c5f0aa8057071aabfed5a243f15031d3b29f7b52a0dfe8"
+  },
+  {
+    "path": "02_11月开发预实验/S24/tables/T02_all_jobs_dual_timing.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S24/tables/T02_all_jobs_dual_timing.csv",
+    "bytes": 48639,
+    "sha256": "b661f7b09480e9f1c4cd4bb70be45bc97e630d2be4265779f6c00cf1bc81c468"
+  },
+  {
+    "path": "02_11月开发预实验/S24/config/protocol.json",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S24/code/protocol.json",
+    "bytes": 9664,
+    "sha256": "f2631562cfdd9f2fc39ea5509ec0574165c4fe6af275f40192abf295e03898ee"
+  },
+  {
+    "path": "02_11月开发预实验/S24/config/cases.json",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S24/code/cases.json",
+    "bytes": 200190,
+    "sha256": "f38b864c2834738782e1b0b997e1d33b9254e85f23b2732406f6098fe49b5d65"
+  },
+  {
+    "path": "02_11月开发预实验/S27/S27_共同前视单岛配对资格航次执行报告_20261104.md",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/进程汇报/S27_共同前视单岛配对资格航次执行报告_20261104.md",
+    "bytes": 9720,
+    "sha256": "c4a3b39032b54e24bc49d2678928ec3603862e58783ef77cfbd543ae0cc5a560"
+  },
+  {
+    "path": "02_11月开发预实验/S27/tables/T01_two_case_outcome.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/tables/T01_two_case_outcome.csv",
+    "bytes": 1451,
+    "sha256": "293112e022a7f29c12fc0d23f748728d9cde1388c9d29c20a237ffd77bc41be8"
+  },
+  {
+    "path": "02_11月开发预实验/S27/tables/T02_all_jobs_dual_timing.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/tables/T02_all_jobs_dual_timing.csv",
+    "bytes": 166064,
+    "sha256": "b90a55c52482888d23259ffc0a61d62a38386252437205a755691d375cc0d8cd"
+  },
+  {
+    "path": "02_11月开发预实验/S27/config/protocol.json",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/code/protocol.json",
+    "bytes": 9664,
+    "sha256": "f2631562cfdd9f2fc39ea5509ec0574165c4fe6af275f40192abf295e03898ee"
+  },
+  {
+    "path": "02_11月开发预实验/S27/config/cases.json",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/code/cases.json",
+    "bytes": 200190,
+    "sha256": "f38b864c2834738782e1b0b997e1d33b9254e85f23b2732406f6098fe49b5d65"
+  },
+  {
+    "path": "04_MATLAB代码/S27/run_s27_pair.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/code/run_s27_pair.m",
+    "bytes": 46257,
+    "sha256": "3f89edd1666f5cbd585729d21ac034bbbdff1002148a15ceb5396ef4fa4ab647"
+  },
+  {
+    "path": "04_MATLAB代码/S27/s27_load_inputs.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/code/s27_load_inputs.m",
+    "bytes": 10920,
+    "sha256": "4efc8852be27d3ee09a5dcf05562302a10e926fd318b5ed580175213ca274e88"
+  },
+  {
+    "path": "04_MATLAB代码/S27/s10_compare_science.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/code/s10_compare_science.m",
+    "bytes": 14572,
+    "sha256": "1ec51ff6c5424f6d1a1f3b7c8499bc5774eecdd282f3194805e7ee5c130b2d74"
+  },
+  {
+    "path": "04_MATLAB代码/S27/s10_batch_reference_rollout.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/code/s10_batch_reference_rollout.m",
+    "bytes": 10561,
+    "sha256": "c21f0f4f5c2c130d9b1fbb24bf94bc9ff2a9e779295e07fa49e3a1d5b0ca44af"
+  },
+  {
+    "path": "04_MATLAB代码/S27/s13_forecast_receiver.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/code/s13_forecast_receiver.m",
+    "bytes": 10289,
+    "sha256": "c283b0381ee4ae3c82297a4fb44644a8b7fde671d4902b3fe56b5c6c687e9eba"
+  },
+  {
+    "path": "04_MATLAB代码/S27/p1b_engine.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/code/p1b_engine.m",
+    "bytes": 16724,
+    "sha256": "1e195b4b001cf1447ff30b57c7f831616318de4613e1277f3e66f040fc6f4609"
+  },
+  {
+    "path": "04_MATLAB代码/S27/s10_batch_local_planner.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/code/s10_batch_local_planner.m",
+    "bytes": 17722,
+    "sha256": "f90f388b62659244b2097c88878b6248190e47900e28ba5c683e8f47d3743a1f"
+  },
+  {
+    "path": "04_MATLAB代码/S27/s21_preflight.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/code/s21_preflight.m",
+    "bytes": 4386,
+    "sha256": "5e120dc1b912ddc5711446fd96827a7bb18e656563147ad504bce42af61a0fa9"
+  },
+  {
+    "path": "04_MATLAB代码/S27/p1b_candidate.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/code/p1b_candidate.m",
+    "bytes": 5716,
+    "sha256": "3383f1a31064866fe2fa5f3e24513ffe94aae6e6456a618c0badd8964af762a0"
+  },
+  {
+    "path": "04_MATLAB代码/S27/s21_load_inputs.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/code/s21_load_inputs.m",
+    "bytes": 1892,
+    "sha256": "1111f40950875bf6931b0341f36c57883a76f98c13a1eedb8759a3591cbe6305"
+  },
+  {
+    "path": "02_11月开发预实验/S30/S30_空场与单来船四格闭环资格执行报告_20261104.md",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/进程汇报/S30_空场与单来船四格闭环资格执行报告_20261104.md",
+    "bytes": 10190,
+    "sha256": "994420098e6e6f26542f1171afc790a84362b5808c5cc2bd51e363c1389e4420"
+  },
+  {
+    "path": "02_11月开发预实验/S30/tables/T01_four_case_outcome.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/tables/T01_four_case_outcome.csv",
+    "bytes": 2849,
+    "sha256": "cb0ef2f24146aee2f7f71c7982d7dcd4007cb35b95293dc2fb21537cd5ecf8c5"
+  },
+  {
+    "path": "02_11月开发预实验/S30/tables/T03_crossing_relative_and_target_clearance.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/tables/T03_crossing_relative_and_target_clearance.csv",
+    "bytes": 1097841,
+    "sha256": "5ac367c31593c537c655a516f681a42c26bbfc5dc17c6c8499a85c3414cf4278"
+  },
+  {
+    "path": "02_11月开发预实验/S30/tables/T02_all_jobs_dual_timing.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/tables/T02_all_jobs_dual_timing.csv",
+    "bytes": 313782,
+    "sha256": "1d8d9e93b67a2889ac6e30d895c35ec686eeccc9bc670b6576c3ea7bbbe587d8"
+  },
+  {
+    "path": "02_11月开发预实验/S30/config/protocol.json",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/code/protocol.json",
+    "bytes": 9664,
+    "sha256": "f2631562cfdd9f2fc39ea5509ec0574165c4fe6af275f40192abf295e03898ee"
+  },
+  {
+    "path": "02_11月开发预实验/S30/config/cases.json",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/code/cases.json",
+    "bytes": 200190,
+    "sha256": "f38b864c2834738782e1b0b997e1d33b9254e85f23b2732406f6098fe49b5d65"
+  },
+  {
+    "path": "04_MATLAB代码/S30/run_s30_four_cells.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/code/run_s30_four_cells.m",
+    "bytes": 59746,
+    "sha256": "59fd472374692b69cb9bcae2c7ae8c2d4be7714635928122100329ee2300f4a1"
+  },
+  {
+    "path": "04_MATLAB代码/S30/s30_load_inputs.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/code/s30_load_inputs.m",
+    "bytes": 12984,
+    "sha256": "b46e766d1f3cef7ff06c6e711a730fd1b11355b172aa3fa57083568ad67ea44c"
+  },
+  {
+    "path": "04_MATLAB代码/S30/s10_compare_science.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/code/s10_compare_science.m",
+    "bytes": 14572,
+    "sha256": "1ec51ff6c5424f6d1a1f3b7c8499bc5774eecdd282f3194805e7ee5c130b2d74"
+  },
+  {
+    "path": "04_MATLAB代码/S30/s10_batch_reference_rollout.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/code/s10_batch_reference_rollout.m",
+    "bytes": 10561,
+    "sha256": "c21f0f4f5c2c130d9b1fbb24bf94bc9ff2a9e779295e07fa49e3a1d5b0ca44af"
+  },
+  {
+    "path": "04_MATLAB代码/S30/s13_forecast_receiver.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/code/s13_forecast_receiver.m",
+    "bytes": 10289,
+    "sha256": "c283b0381ee4ae3c82297a4fb44644a8b7fde671d4902b3fe56b5c6c687e9eba"
+  },
+  {
+    "path": "04_MATLAB代码/S30/p1b_engine.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/code/p1b_engine.m",
+    "bytes": 16724,
+    "sha256": "1e195b4b001cf1447ff30b57c7f831616318de4613e1277f3e66f040fc6f4609"
+  },
+  {
+    "path": "04_MATLAB代码/S30/s10_batch_local_planner.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/code/s10_batch_local_planner.m",
+    "bytes": 17722,
+    "sha256": "f90f388b62659244b2097c88878b6248190e47900e28ba5c683e8f47d3743a1f"
+  },
+  {
+    "path": "04_MATLAB代码/S30/s21_preflight.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/code/s21_preflight.m",
+    "bytes": 4386,
+    "sha256": "5e120dc1b912ddc5711446fd96827a7bb18e656563147ad504bce42af61a0fa9"
+  },
+  {
+    "path": "04_MATLAB代码/S30/s30_pretarget.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/code/s30_pretarget.m",
+    "bytes": 10990,
+    "sha256": "a65fc7094a2afd6f5e8a90266df7f3bdf216ea6895e6a72d7f0cf41a94ef21f8"
+  },
+  {
+    "path": "04_MATLAB代码/S30/p1b_candidate.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/code/p1b_candidate.m",
+    "bytes": 5716,
+    "sha256": "3383f1a31064866fe2fa5f3e24513ffe94aae6e6456a618c0badd8964af762a0"
+  },
+  {
+    "path": "04_MATLAB代码/S30/s21_load_inputs.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S30/code/s21_load_inputs.m",
+    "bytes": 1892,
+    "sha256": "1111f40950875bf6931b0341f36c57883a76f98c13a1eedb8759a3591cbe6305"
+  },
+  {
+    "path": "02_11月开发预实验/S32/S32_来船提前相位配对资格试验报告_20261104.md",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/进程汇报/S32_来船提前相位配对资格试验报告_20261104.md",
+    "bytes": 12417,
+    "sha256": "061ee7add0a829214c5075cee0770e59d18d72bd211288fbc365d04c6b2d8cb3"
+  },
+  {
+    "path": "02_11月开发预实验/S32/tables/T03_crossing_relative_and_target_clearance.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/tables/T03_crossing_relative_and_target_clearance.csv",
+    "bytes": 1822524,
+    "sha256": "f23a7a6ce1babff10e4e767aac58d49c82821b71963d42e733f8e5c735d25fc1"
+  },
+  {
+    "path": "02_11月开发预实验/S32/tables/phase_T02_same_clock_cuts.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/tables/phase_T02_same_clock_cuts.csv",
+    "bytes": 79861,
+    "sha256": "3f19eeba42918b50400df32338fbd800f8119cda57a196bccd62cb60cb5d5a0e"
+  },
+  {
+    "path": "02_11月开发预实验/S32/tables/phase_T04_exposure_lifecycle_and_compute.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/tables/phase_T04_exposure_lifecycle_and_compute.csv",
+    "bytes": 1259,
+    "sha256": "e1eeb3c56fe55b303a27d167a2ef1dcab4d3444f50e1ccb0056db40f30dacc5a"
+  },
+  {
+    "path": "02_11月开发预实验/S32/tables/T02_all_jobs_dual_timing.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/tables/T02_all_jobs_dual_timing.csv",
+    "bytes": 206638,
+    "sha256": "8a9b300a8623505898373a54bc1cbbfad1542f588c551f44cc2021ae801a131b"
+  },
+  {
+    "path": "02_11月开发预实验/S32/tables/phase_T01_matched_windows_and_tails.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/tables/phase_T01_matched_windows_and_tails.csv",
+    "bytes": 6364,
+    "sha256": "7fde5bc6389b7595d82a4de283535bc61069aa4a2104f3dcfb931c26ef642da5"
+  },
+  {
+    "path": "02_11月开发预实验/S32/tables/T01_pair_outcome.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/tables/T01_pair_outcome.csv",
+    "bytes": 2350,
+    "sha256": "b2995a9a581f2bc614cd45505c4636488170d60bf8e620065644852cef5c4151"
+  },
+  {
+    "path": "02_11月开发预实验/S32/tables/phase_T03_crossing_event_and_endpoint_cuts.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/tables/phase_T03_crossing_event_and_endpoint_cuts.csv",
+    "bytes": 9172,
+    "sha256": "c835217b07ef406857dc67c196eeea9cca03e44c5bd338451c4dc5b13e2ecd21"
+  },
+  {
+    "path": "02_11月开发预实验/S32/config/protocol.json",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/code/protocol.json",
+    "bytes": 9664,
+    "sha256": "f2631562cfdd9f2fc39ea5509ec0574165c4fe6af275f40192abf295e03898ee"
+  },
+  {
+    "path": "02_11月开发预实验/S32/config/cases.json",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/code/cases.json",
+    "bytes": 200190,
+    "sha256": "f38b864c2834738782e1b0b997e1d33b9254e85f23b2732406f6098fe49b5d65"
+  },
+  {
+    "path": "04_MATLAB代码/S32/s32_pretarget.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/code/s32_pretarget.m",
+    "bytes": 10940,
+    "sha256": "592285a6ed7c8f66e804debc5bdb9ca6fb7d498653311c20951f34148a96a3d7"
+  },
+  {
+    "path": "04_MATLAB代码/S32/run_s32_early_crossing_pair.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/code/run_s32_early_crossing_pair.m",
+    "bytes": 60544,
+    "sha256": "afe2afe637fa8e77dcfd99e0126243af28678537e002c13f639f6a3ee399f0e3"
+  },
+  {
+    "path": "04_MATLAB代码/S32/s10_compare_science.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/code/s10_compare_science.m",
+    "bytes": 14572,
+    "sha256": "1ec51ff6c5424f6d1a1f3b7c8499bc5774eecdd282f3194805e7ee5c130b2d74"
+  },
+  {
+    "path": "04_MATLAB代码/S32/s10_batch_reference_rollout.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/code/s10_batch_reference_rollout.m",
+    "bytes": 10561,
+    "sha256": "c21f0f4f5c2c130d9b1fbb24bf94bc9ff2a9e779295e07fa49e3a1d5b0ca44af"
+  },
+  {
+    "path": "04_MATLAB代码/S32/s13_forecast_receiver.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/code/s13_forecast_receiver.m",
+    "bytes": 10289,
+    "sha256": "c283b0381ee4ae3c82297a4fb44644a8b7fde671d4902b3fe56b5c6c687e9eba"
+  },
+  {
+    "path": "04_MATLAB代码/S32/p1b_engine.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/code/p1b_engine.m",
+    "bytes": 16724,
+    "sha256": "1e195b4b001cf1447ff30b57c7f831616318de4613e1277f3e66f040fc6f4609"
+  },
+  {
+    "path": "04_MATLAB代码/S32/s10_batch_local_planner.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/code/s10_batch_local_planner.m",
+    "bytes": 17722,
+    "sha256": "f90f388b62659244b2097c88878b6248190e47900e28ba5c683e8f47d3743a1f"
+  },
+  {
+    "path": "04_MATLAB代码/S32/s21_preflight.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/code/s21_preflight.m",
+    "bytes": 4386,
+    "sha256": "5e120dc1b912ddc5711446fd96827a7bb18e656563147ad504bce42af61a0fa9"
+  },
+  {
+    "path": "04_MATLAB代码/S32/p1b_candidate.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/code/p1b_candidate.m",
+    "bytes": 5716,
+    "sha256": "3383f1a31064866fe2fa5f3e24513ffe94aae6e6456a618c0badd8964af762a0"
+  },
+  {
+    "path": "04_MATLAB代码/S32/s32_load_inputs.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/code/s32_load_inputs.m",
+    "bytes": 11069,
+    "sha256": "7654dbb208fcda80ad39a972fa1dc61cd71c86e837ea6d58988fb08383a0fd17"
+  },
+  {
+    "path": "04_MATLAB代码/S32/s21_load_inputs.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S32/code/s21_load_inputs.m",
+    "bytes": 1892,
+    "sha256": "1111f40950875bf6931b0341f36c57883a76f98c13a1eedb8759a3591cbe6305"
+  },
+  {
+    "path": "02_11月开发预实验/S35/S35_Astar交接VO单岛受控资格报告_20261104.md",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/进程汇报/S35_Astar交接VO单岛受控资格报告_20261104.md",
+    "bytes": 8607,
+    "sha256": "baed05b6ff9125f25068071d707325777d3956f44cef303976e957e7dfee308d"
+  },
+  {
+    "path": "02_11月开发预实验/S35/tables/T01_S35_outcome_and_timing.csv",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/tables/T01_S35_outcome_and_timing.csv",
+    "bytes": 159560,
+    "sha256": "839b0d6b3b8cedf5da1f4dac8df952fef440ade09df980483b32cab38e0c49c5"
+  },
+  {
+    "path": "02_11月开发预实验/S35/config/protocol.json",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/code/protocol.json",
+    "bytes": 9664,
+    "sha256": "f2631562cfdd9f2fc39ea5509ec0574165c4fe6af275f40192abf295e03898ee"
+  },
+  {
+    "path": "02_11月开发预实验/S35/config/cases.json",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/code/cases.json",
+    "bytes": 200190,
+    "sha256": "f38b864c2834738782e1b0b997e1d33b9254e85f23b2732406f6098fe49b5d65"
+  },
+  {
+    "path": "04_MATLAB代码/S35/s10_compare_science.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/code/s10_compare_science.m",
+    "bytes": 14572,
+    "sha256": "1ec51ff6c5424f6d1a1f3b7c8499bc5774eecdd282f3194805e7ee5c130b2d74"
+  },
+  {
+    "path": "04_MATLAB代码/S35/s10_batch_reference_rollout.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/code/s10_batch_reference_rollout.m",
+    "bytes": 10561,
+    "sha256": "c21f0f4f5c2c130d9b1fbb24bf94bc9ff2a9e779295e07fa49e3a1d5b0ca44af"
+  },
+  {
+    "path": "04_MATLAB代码/S35/s13_forecast_receiver.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/code/s13_forecast_receiver.m",
+    "bytes": 10289,
+    "sha256": "c283b0381ee4ae3c82297a4fb44644a8b7fde671d4902b3fe56b5c6c687e9eba"
+  },
+  {
+    "path": "04_MATLAB代码/S35/run_s35_astar_fvo_single_island.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/code/run_s35_astar_fvo_single_island.m",
+    "bytes": 55432,
+    "sha256": "07ed8a4d0a7e03c6d2a01e897fd14fce5c7d8966263a617a024e7ac767c08f92"
+  },
+  {
+    "path": "04_MATLAB代码/S35/p1b_engine.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/code/p1b_engine.m",
+    "bytes": 16724,
+    "sha256": "1e195b4b001cf1447ff30b57c7f831616318de4613e1277f3e66f040fc6f4609"
+  },
+  {
+    "path": "04_MATLAB代码/S35/s10_batch_local_planner.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/code/s10_batch_local_planner.m",
+    "bytes": 17722,
+    "sha256": "f90f388b62659244b2097c88878b6248190e47900e28ba5c683e8f47d3743a1f"
+  },
+  {
+    "path": "04_MATLAB代码/S35/s21_preflight.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/code/s21_preflight.m",
+    "bytes": 4386,
+    "sha256": "5e120dc1b912ddc5711446fd96827a7bb18e656563147ad504bce42af61a0fa9"
+  },
+  {
+    "path": "04_MATLAB代码/S35/s35_load_inputs.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/code/s35_load_inputs.m",
+    "bytes": 11363,
+    "sha256": "0f02651e26c6fae9ef9b2c465e5dc2c86873481c508ac693a268032ea55bbc6b"
+  },
+  {
+    "path": "04_MATLAB代码/S35/p1b_candidate.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/code/p1b_candidate.m",
+    "bytes": 5716,
+    "sha256": "3383f1a31064866fe2fa5f3e24513ffe94aae6e6456a618c0badd8964af762a0"
+  },
+  {
+    "path": "04_MATLAB代码/S35/s21_load_inputs.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/code/s21_load_inputs.m",
+    "bytes": 1892,
+    "sha256": "1111f40950875bf6931b0341f36c57883a76f98c13a1eedb8759a3591cbe6305"
+  },
+  {
+    "path": "04_MATLAB代码/S35/s35_pretarget.m",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/code/s35_pretarget.m",
+    "bytes": 10616,
+    "sha256": "26e5275ed46184d98887ca84f91d3e92012afbff871e749bdd7df51cce996c0e"
+  },
+  {
+    "path": "03_代表性轨迹/S27_S27_readonly_plot_data.json",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S27/tables/S27_readonly_plot_data.json",
+    "bytes": 6526393,
+    "sha256": "96db340a2e9bcb5cf4abf9eae4bb225df3cd4b94344fe37d1138e76dc5186728"
+  },
+  {
+    "path": "03_代表性轨迹/S35_S35_saved_analysis.json",
+    "source": "/Users/sam/Documents/Documents - sam的MacBook Pro/HKU资料/Paper/Evaluating ASV/test-11_03/S35/tables/S35_saved_analysis.json",
+    "bytes": 4918068,
+    "sha256": "259641c5dda0204087d02276ba922bbf4661827b244c96c3d10101ffcf2e0947"
+  },
+  {
+    "path": "03_代表性轨迹/S30_S32_crossing_replay.json",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/site/closed_loop_evidence_20261104/replay-crossing-data.json",
+    "bytes": 1589191,
+    "sha256": "fceb6610252d11dcdf0dc167aa32486ead2dc711659ebbf9091160d478d05ebd"
+  },
+  {
+    "path": "04_MATLAB代码/共同船模/otter.m",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/experiments/p0_freeze_regression_v1/frozen/mss/otter.m",
+    "bytes": 9481,
+    "sha256": "66c144fea629cee4bea0ad55b62a1bc5e55b46e68ac8e94860ddc7f0aff12248"
+  },
+  {
+    "path": "05_历史120航次_独立批次/report.md",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/experiments/q1_route_geometry_pilot_v1/reports/report.md",
+    "bytes": 2482,
+    "sha256": "c829b9ac8770b2e67efceae5c1f24bf10564788264a4b73c49b0a773ab64670f"
+  },
+  {
+    "path": "05_历史120航次_独立批次/run_metrics.csv",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/experiments/q1_route_geometry_pilot_v1/reports/run_metrics.csv",
+    "bytes": 174766,
+    "sha256": "6759db2581eeee7184d71499a40524edfeef439c89e91ec28ce7043933b08da5"
+  },
+  {
+    "path": "05_历史120航次_独立批次/paired_metrics.csv",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/experiments/q1_route_geometry_pilot_v1/reports/paired_metrics.csv",
+    "bytes": 22490,
+    "sha256": "1f05f36fc57353fe14b5e420ab5ffe086ec75470840b1f8740a6a6ce5d74e617"
+  },
+  {
+    "path": "05_历史120航次_独立批次/summary.json",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/experiments/q1_route_geometry_pilot_v1/reports/summary.json",
+    "bytes": 22827,
+    "sha256": "74244bc8dfa52d9d278d08ac3cce690717ff614dfa1b49e4abdebc75c06465e2"
+  },
+  {
+    "path": "05_历史120航次_独立批次/maps.json",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/experiments/q1_route_geometry_pilot_v1/maps.json",
+    "bytes": 1407,
+    "sha256": "9766d9347d4f96cee22806b22e306c88af0876602c4ac7308927db585c9b4c35"
+  },
+  {
+    "path": "05_历史120航次_独立批次/protocol.json",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/experiments/q1_route_geometry_pilot_v1/protocol.json",
+    "bytes": 6303,
+    "sha256": "ab68b77c3da9ad274756911c6716bd55e3832f43933297a629822e1eea0f28ff"
+  },
+  {
+    "path": "05_历史120航次_独立批次/cases_index.csv",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/experiments/q1_route_geometry_pilot_v1/cases_index.csv",
+    "bytes": 36460,
+    "sha256": "d011620efd7b504a61e165fbfab99dba09d860a1082e51b7353118e531bc8d3b"
+  },
+  {
+    "path": "05_历史120航次_独立批次/routes/M1_STAGGERED_ASTAR.csv",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/experiments/q1_route_geometry_pilot_v1/routes/M1_STAGGERED_ASTAR.csv",
+    "bytes": 173,
+    "sha256": "be3f4245688e994998187f2bca8b6403ad641cd7c7c0d0ae121a5b94f4943b21"
+  },
+  {
+    "path": "05_历史120航次_独立批次/routes/M0_SINGLE_ASTAR.csv",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/experiments/q1_route_geometry_pilot_v1/routes/M0_SINGLE_ASTAR.csv",
+    "bytes": 160,
+    "sha256": "180f2889e820cc95a2ee07bfc853ba68882812bdf02b2ae9f325fb5185d329de"
+  },
+  {
+    "path": "05_历史120航次_独立批次/routes/M0_SINGLE_THETA_STAR.csv",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/experiments/q1_route_geometry_pilot_v1/routes/M0_SINGLE_THETA_STAR.csv",
+    "bytes": 43,
+    "sha256": "d99ab346bf88e9e38cffdc3b5e2f57a4d868c30245083b38cafb1ba87334c1a7"
+  },
+  {
+    "path": "05_历史120航次_独立批次/routes/M1_STAGGERED_THETA_STAR.csv",
+    "source": "/Users/sam/.codex/.chatgpt-projects/g-p-6a97c4bed9b88191a88664b2d07b23d1/asv-experiment-viewer/experiments/q1_route_geometry_pilot_v1/routes/M1_STAGGERED_THETA_STAR.csv",
+    "bytes": 60,
+    "sha256": "74f7454e6b24ba2c26c7bdf31373c78ac39a7d36a259065789b87e454e4a1deb"
+  }
+]

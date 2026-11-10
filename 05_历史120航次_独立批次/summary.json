@@ -1,0 +1,708 @@
+{
+  "study_id": "Q1_ROUTE_GEOMETRY_PILOT_V1",
+  "title": "USV全局路线几何与局部避碰的安全和任务效率：恒定横流下的成对预实验",
+  "updated_at_utc": "2026-10-24T19:37:49.791083+00:00",
+  "native_batch_status": "completed",
+  "totals": {
+    "expected_runs": 120,
+    "completed": 120,
+    "verified": 120,
+    "statuses": {
+      "completed": 120
+    },
+    "terminations": {
+      "arrived": 71,
+      "collision": 21,
+      "timeout": 28
+    },
+    "arrived": 71,
+    "collision_free_arrival": 71,
+    "safe_arrival": 51,
+    "physical_collision": 21,
+    "margin_violation_runs": 65,
+    "min_swept_clearance_m": -0.057291540147002884,
+    "mean_safe_arrival_time_s": 186.05980392156866,
+    "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+  },
+  "source_protocol_sha256": "ab68b77c3da9ad274756911c6716bd55e3832f43933297a629822e1eea0f28ff",
+  "by_global": {
+    "ASTAR": {
+      "expected_runs": 60,
+      "completed": 60,
+      "verified": 60,
+      "statuses": {
+        "completed": 60
+      },
+      "terminations": {
+        "arrived": 30,
+        "collision": 14,
+        "timeout": 16
+      },
+      "arrived": 30,
+      "collision_free_arrival": 30,
+      "safe_arrival": 22,
+      "physical_collision": 14,
+      "margin_violation_runs": 35,
+      "min_swept_clearance_m": -0.057291540147002884,
+      "mean_safe_arrival_time_s": 193.01136363636363,
+      "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+    },
+    "THETA_STAR": {
+      "expected_runs": 60,
+      "completed": 60,
+      "verified": 60,
+      "statuses": {
+        "completed": 60
+      },
+      "terminations": {
+        "arrived": 41,
+        "collision": 7,
+        "timeout": 12
+      },
+      "arrived": 41,
+      "collision_free_arrival": 41,
+      "safe_arrival": 29,
+      "physical_collision": 7,
+      "margin_violation_runs": 30,
+      "min_swept_clearance_m": -0.01721321230066275,
+      "mean_safe_arrival_time_s": 180.78620689655173,
+      "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+    }
+  },
+  "strata": [
+    {
+      "map_id": "M0_SINGLE",
+      "encounter": "HEADON",
+      "current_condition": "F0_STILL",
+      "by_global": {
+        "ASTAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 5
+          },
+          "arrived": 5,
+          "collision_free_arrival": 5,
+          "safe_arrival": 5,
+          "physical_collision": 0,
+          "margin_violation_runs": 0,
+          "min_swept_clearance_m": 3.381778602786704,
+          "mean_safe_arrival_time_s": 178.03000000000003,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        },
+        "THETA_STAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 5
+          },
+          "arrived": 5,
+          "collision_free_arrival": 5,
+          "safe_arrival": 5,
+          "physical_collision": 0,
+          "margin_violation_runs": 0,
+          "min_swept_clearance_m": 4.142324334066765,
+          "mean_safe_arrival_time_s": 174.28000000000003,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        }
+      }
+    },
+    {
+      "map_id": "M0_SINGLE",
+      "encounter": "HEADON",
+      "current_condition": "F1_EAST_0P3",
+      "by_global": {
+        "ASTAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 3,
+            "collision": 2
+          },
+          "arrived": 3,
+          "collision_free_arrival": 3,
+          "safe_arrival": 2,
+          "physical_collision": 2,
+          "margin_violation_runs": 3,
+          "min_swept_clearance_m": -0.009929848344833125,
+          "mean_safe_arrival_time_s": 182.52500000000003,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        },
+        "THETA_STAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "collision": 3,
+            "arrived": 2
+          },
+          "arrived": 2,
+          "collision_free_arrival": 2,
+          "safe_arrival": 2,
+          "physical_collision": 3,
+          "margin_violation_runs": 3,
+          "min_swept_clearance_m": -0.014475392980892288,
+          "mean_safe_arrival_time_s": 178.82500000000002,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        }
+      }
+    },
+    {
+      "map_id": "M0_SINGLE",
+      "encounter": "CROSSING_STARBOARD",
+      "current_condition": "F0_STILL",
+      "by_global": {
+        "ASTAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "collision": 5
+          },
+          "arrived": 0,
+          "collision_free_arrival": 0,
+          "safe_arrival": 0,
+          "physical_collision": 5,
+          "margin_violation_runs": 5,
+          "min_swept_clearance_m": -0.057291540147002884,
+          "mean_safe_arrival_time_s": null,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        },
+        "THETA_STAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 4,
+            "collision": 1
+          },
+          "arrived": 4,
+          "collision_free_arrival": 4,
+          "safe_arrival": 0,
+          "physical_collision": 1,
+          "margin_violation_runs": 5,
+          "min_swept_clearance_m": -0.01721321230066275,
+          "mean_safe_arrival_time_s": null,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        }
+      }
+    },
+    {
+      "map_id": "M0_SINGLE",
+      "encounter": "CROSSING_STARBOARD",
+      "current_condition": "F1_EAST_0P3",
+      "by_global": {
+        "ASTAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 5
+          },
+          "arrived": 5,
+          "collision_free_arrival": 5,
+          "safe_arrival": 1,
+          "physical_collision": 0,
+          "margin_violation_runs": 4,
+          "min_swept_clearance_m": 0.633149725647586,
+          "mean_safe_arrival_time_s": 203.20000000000002,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        },
+        "THETA_STAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 5
+          },
+          "arrived": 5,
+          "collision_free_arrival": 5,
+          "safe_arrival": 2,
+          "physical_collision": 0,
+          "margin_violation_runs": 3,
+          "min_swept_clearance_m": 1.849829993807293,
+          "mean_safe_arrival_time_s": 194.25,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        }
+      }
+    },
+    {
+      "map_id": "M0_SINGLE",
+      "encounter": "OVERTAKING",
+      "current_condition": "F0_STILL",
+      "by_global": {
+        "ASTAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 4,
+            "timeout": 1
+          },
+          "arrived": 4,
+          "collision_free_arrival": 4,
+          "safe_arrival": 4,
+          "physical_collision": 0,
+          "margin_violation_runs": 0,
+          "min_swept_clearance_m": 3.4043504463031766,
+          "mean_safe_arrival_time_s": 185.28750000000002,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        },
+        "THETA_STAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 5
+          },
+          "arrived": 5,
+          "collision_free_arrival": 5,
+          "safe_arrival": 5,
+          "physical_collision": 0,
+          "margin_violation_runs": 0,
+          "min_swept_clearance_m": 3.69522725797433,
+          "mean_safe_arrival_time_s": 174.54000000000002,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        }
+      }
+    },
+    {
+      "map_id": "M0_SINGLE",
+      "encounter": "OVERTAKING",
+      "current_condition": "F1_EAST_0P3",
+      "by_global": {
+        "ASTAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 5
+          },
+          "arrived": 5,
+          "collision_free_arrival": 5,
+          "safe_arrival": 4,
+          "physical_collision": 0,
+          "margin_violation_runs": 1,
+          "min_swept_clearance_m": 0.6156939788299898,
+          "mean_safe_arrival_time_s": 183.35000000000002,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        },
+        "THETA_STAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 5
+          },
+          "arrived": 5,
+          "collision_free_arrival": 5,
+          "safe_arrival": 4,
+          "physical_collision": 0,
+          "margin_violation_runs": 1,
+          "min_swept_clearance_m": 0.3375875274945721,
+          "mean_safe_arrival_time_s": 180.025,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        }
+      }
+    },
+    {
+      "map_id": "M1_STAGGERED",
+      "encounter": "HEADON",
+      "current_condition": "F0_STILL",
+      "by_global": {
+        "ASTAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 3,
+            "timeout": 1,
+            "collision": 1
+          },
+          "arrived": 3,
+          "collision_free_arrival": 3,
+          "safe_arrival": 3,
+          "physical_collision": 1,
+          "margin_violation_runs": 1,
+          "min_swept_clearance_m": -0.0044952808637082065,
+          "mean_safe_arrival_time_s": 205.85000000000002,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        },
+        "THETA_STAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 5
+          },
+          "arrived": 5,
+          "collision_free_arrival": 5,
+          "safe_arrival": 5,
+          "physical_collision": 0,
+          "margin_violation_runs": 0,
+          "min_swept_clearance_m": 3.456444683843584,
+          "mean_safe_arrival_time_s": 182.48000000000002,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        }
+      }
+    },
+    {
+      "map_id": "M1_STAGGERED",
+      "encounter": "HEADON",
+      "current_condition": "F1_EAST_0P3",
+      "by_global": {
+        "ASTAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "timeout": 3,
+            "collision": 2
+          },
+          "arrived": 0,
+          "collision_free_arrival": 0,
+          "safe_arrival": 0,
+          "physical_collision": 2,
+          "margin_violation_runs": 5,
+          "min_swept_clearance_m": -0.014102979375214986,
+          "mean_safe_arrival_time_s": null,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        },
+        "THETA_STAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "collision": 2,
+            "timeout": 3
+          },
+          "arrived": 0,
+          "collision_free_arrival": 0,
+          "safe_arrival": 0,
+          "physical_collision": 2,
+          "margin_violation_runs": 5,
+          "min_swept_clearance_m": -0.014584192032989662,
+          "mean_safe_arrival_time_s": null,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        }
+      }
+    },
+    {
+      "map_id": "M1_STAGGERED",
+      "encounter": "CROSSING_STARBOARD",
+      "current_condition": "F0_STILL",
+      "by_global": {
+        "ASTAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "collision": 3,
+            "arrived": 2
+          },
+          "arrived": 2,
+          "collision_free_arrival": 2,
+          "safe_arrival": 0,
+          "physical_collision": 3,
+          "margin_violation_runs": 5,
+          "min_swept_clearance_m": -0.02405674006565528,
+          "mean_safe_arrival_time_s": null,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        },
+        "THETA_STAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 5
+          },
+          "arrived": 5,
+          "collision_free_arrival": 5,
+          "safe_arrival": 1,
+          "physical_collision": 0,
+          "margin_violation_runs": 4,
+          "min_swept_clearance_m": 0.4588796632738923,
+          "mean_safe_arrival_time_s": 208.70000000000002,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        }
+      }
+    },
+    {
+      "map_id": "M1_STAGGERED",
+      "encounter": "CROSSING_STARBOARD",
+      "current_condition": "F1_EAST_0P3",
+      "by_global": {
+        "ASTAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "timeout": 5
+          },
+          "arrived": 0,
+          "collision_free_arrival": 0,
+          "safe_arrival": 0,
+          "physical_collision": 0,
+          "margin_violation_runs": 5,
+          "min_swept_clearance_m": 0.9244814476431715,
+          "mean_safe_arrival_time_s": null,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        },
+        "THETA_STAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "timeout": 5
+          },
+          "arrived": 0,
+          "collision_free_arrival": 0,
+          "safe_arrival": 0,
+          "physical_collision": 0,
+          "margin_violation_runs": 5,
+          "min_swept_clearance_m": 1.8537650488573476,
+          "mean_safe_arrival_time_s": null,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        }
+      }
+    },
+    {
+      "map_id": "M1_STAGGERED",
+      "encounter": "OVERTAKING",
+      "current_condition": "F0_STILL",
+      "by_global": {
+        "ASTAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 3,
+            "timeout": 2
+          },
+          "arrived": 3,
+          "collision_free_arrival": 3,
+          "safe_arrival": 3,
+          "physical_collision": 0,
+          "margin_violation_runs": 1,
+          "min_swept_clearance_m": 2.824709790632646,
+          "mean_safe_arrival_time_s": 231.91666666666666,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        },
+        "THETA_STAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "arrived": 5
+          },
+          "arrived": 5,
+          "collision_free_arrival": 5,
+          "safe_arrival": 5,
+          "physical_collision": 0,
+          "margin_violation_runs": 0,
+          "min_swept_clearance_m": 3.4456198889930496,
+          "mean_safe_arrival_time_s": 182.27,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        }
+      }
+    },
+    {
+      "map_id": "M1_STAGGERED",
+      "encounter": "OVERTAKING",
+      "current_condition": "F1_EAST_0P3",
+      "by_global": {
+        "ASTAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "timeout": 4,
+            "collision": 1
+          },
+          "arrived": 0,
+          "collision_free_arrival": 0,
+          "safe_arrival": 0,
+          "physical_collision": 1,
+          "margin_violation_runs": 5,
+          "min_swept_clearance_m": -0.007925224120881147,
+          "mean_safe_arrival_time_s": null,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        },
+        "THETA_STAR": {
+          "expected_runs": 5,
+          "completed": 5,
+          "verified": 5,
+          "statuses": {
+            "completed": 5
+          },
+          "terminations": {
+            "timeout": 4,
+            "collision": 1
+          },
+          "arrived": 0,
+          "collision_free_arrival": 0,
+          "safe_arrival": 0,
+          "physical_collision": 1,
+          "margin_violation_runs": 4,
+          "min_swept_clearance_m": -0.007536681528717892,
+          "mean_safe_arrival_time_s": null,
+          "note": "Untilall120complete, unequalpartialdenominatorsmustnotbeusedforglobalranking"
+        }
+      }
+    }
+  ],
+  "paired": {
+    "expected_pairs": 60,
+    "completed_pairs": 60,
+    "both_safe_pairs": 19,
+    "outcomes": {
+      "both_safe": 19,
+      "ASTAR_only_safe": 3,
+      "neither_safe": 28,
+      "THETA_only_safe": 10
+    }
+  },
+  "contrasts": {
+    "safe_arrival_difference_theta_minus_astar": {
+      "mean": 0.11666666666666667,
+      "ci": {
+        "low": -0.03333333333333333,
+        "high": 0.26666666666666666,
+        "method": "95%exploratoryseed-clusterpercentilebootstrap4000draws",
+        "independent_seed_clusters": 5,
+        "note": "Only5developmentseeds; notpoweranalysisoruniversalranking"
+      }
+    },
+    "min_clearance_difference_theta_minus_astar_m": {
+      "mean": 0.6365909025993688,
+      "ci": {
+        "low": 0.08294762672364404,
+        "high": 1.2887440200537272,
+        "method": "95%exploratoryseed-clusterpercentilebootstrap4000draws",
+        "independent_seed_clusters": 5,
+        "note": "Only5developmentseeds; notpoweranalysisoruniversalranking"
+      }
+    },
+    "safe_pair_duration_difference_theta_minus_astar_s": {
+      "mean": -15.978947368421053,
+      "ci": {
+        "low": -20.58043478260869,
+        "high": -8.82352941176471,
+        "method": "95%exploratoryseed-clusterpercentilebootstrap4000draws",
+        "independent_seed_clusters": 5,
+        "note": "Only5developmentseeds; notpoweranalysisoruniversalranking"
+      }
+    },
+    "safe_pair_path_difference_theta_minus_astar_m": {
+      "mean": -12.455514861859832,
+      "ci": {
+        "low": -14.962145049640997,
+        "high": -8.158434539949265,
+        "method": "95%exploratoryseed-clusterpercentilebootstrap4000draws",
+        "independent_seed_clusters": 5,
+        "note": "Only5developmentseeds; notpoweranalysisoruniversalranking"
+      }
+    }
+  },
+  "interpretation_limits": [
+    "Developmentpilotwith2fixedmaps,4deterministicglobalroutesand5seedfamilies;120executionsarenot120independentglobalroutes",
+    "Confidenceintervalsconditionalonthe2fixedmapsand4routes;cannotseparatelyidentifylength/curvature/clearancecausaleffects",
+    "Exactsameexogenousworldperpair; actualmeetinggeometrycanchangebecauseglobalroutesdiffer",
+    "GlobalA*andTheta*qualifyonlystaticroutegeometry; actualclosedloopperformanceincludesthecommonDWA/controller/supervisor",
+    "Fulltaskfailuresretained; efficiencycomparisonsconditionedonbothsafe arrivalsarelabelled",
+    "Shaftcubedintegralisaneffortproxy, notcalibratedenergy",
+    "Realmeasuredcandidate+selectorreadyclock;notfullend-to-endOSwalltime",
+    "Fields named cpu use tic/toc elapsed function wall time. Recovery search is a nested part of supervisor time and must not be added twice. Speed traces use body-axis water-relative surge; 1.2m/s is its reference cap, with SOG reported separately.",
+    "Execution order is associated with flow: all 30 F0 pairs run A* first and all 30 F1 pairs run Theta* first. Order is not balanced within strata; this is not an isolated CPU benchmark. Balance order independently within each stratum in the next batch.",
+    "NoRLtrainingorCOLREGcomplianceclaiminthe120runs"
+  ],
+  "figures": [
+    {
+      "path": "reports/figures/01_frozen_global_routes.png",
+      "caption": "四条冻结全局路线：同一栅格/膨胀与共线删点适配；虚线为规划膨胀，不是实测航迹。",
+      "kind": "static_route_qualification"
+    },
+    {
+      "path": "reports/figures/02_task_outcomes.png",
+      "caption": "完整任务结果，保留碰撞与安全裕度失守；分母为各算法当前已结束任务，跑满前不作总体排名。",
+      "kind": "saved_task_outcomes"
+    },
+    {
+      "path": "reports/figures/03_paired_clearance_and_time.png",
+      "caption": "同一世界的实际净距与双方安全到达时航时差；红虚线为3m，失败不因提前终止而被称为更快。",
+      "kind": "paired_conditional_effects"
+    }
+  ]
+}
